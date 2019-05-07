@@ -11,3 +11,7 @@ Clouds and Bee fly around.
 Bee is enemy no collision bitmask is in place yet.
 Simple introduction to building a game with sprites.
 Play around with timing my computer was sensitive with it. 
+
+polymorphism.cpp is a file that uses example code to explain polymorphism overloading functions to rename them. 
+Note that both Rectangle and Triangle class have a function called area. By instantiating a pointer class with reference
+to either you overload the function and store the corresponding area.
