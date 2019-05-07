@@ -12,6 +12,8 @@ Bee is enemy no collision bitmask is in place yet.
 Simple introduction to building a game with sprites.
 Play around with timing my computer was sensitive with it. 
 
-polymorphism.cpp is a file that uses example code to explain polymorphism overloading functions to rename them. 
-Note that both Rectangle and Triangle class have a function called area. By instantiating a pointer class with reference
-to either you overload the function and store the corresponding area.
+polymorphism.cpp is a file that uses example code to explain polymorphism overloading functions to rename them.
+ Both the Triangle and Rectangle class are derived classes of the Shape class.
+Note that both Rectangle Shape and Triangle class have a function called area. By instantiating a pointer class with reference
+to Shape the code overloads the function by storing the address of either the Rectangle instantiation or the Triangle instantiation.
+The call the function from the shape instantiation to print the corresponding function call. 
